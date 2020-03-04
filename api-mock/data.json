@@ -1,0 +1,51 @@
+[
+  {
+    "id": "proj-1",
+    "slug": "proj-1-slug",
+    "name": "sample project 1",
+    "envs": [
+      {
+        "id": "env-1",
+        "name": "sample env 1",
+        "from": "branch-1",
+        "to": "branch-2"
+      },
+      {
+        "id": "env-2",
+        "name": "sample env 2",
+        "from": "branch-2",
+        "to": "branch-3"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-1",
+        "name": "sample group 1",
+        "repos": [
+          {
+            "id": "repo-1",
+            "slug": "repo-1-slug"
+          },
+          {
+            "id": "repo-2",
+            "slug": "repo-2-slug"
+          }
+        ]
+      },
+      {
+        "id": "group-2",
+        "name": "sample group 2",
+        "repos": [
+          {
+            "id": "repo-3",
+            "slug": "repo-3-slug"
+          },
+          {
+            "id": "repo-4",
+            "slug": "repo-4-slug"
+          }
+        ]
+      }
+    ]
+  }
+]

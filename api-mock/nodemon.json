@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "src",
+    ".env",
+    "data.json",
+    "nodemon.json",
+    "package.json"
+  ],
+  "ext": "ts,json"
+}

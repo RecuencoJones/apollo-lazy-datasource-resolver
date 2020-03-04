@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --config nodemon.json -x \"npm start\"",
+    "build": "tsc",
+    "serve": "node -r source-map-support dist/index.js"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "0.8.0",
+    "apollo-server": "2.11.0",
+    "dotenv": "8.2.0",
+    "graphql": "14.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2",
+    "ts-node": "8.6.2",
+    "typescript": "3.8.3"
+  }
+}
